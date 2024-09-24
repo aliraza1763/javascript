@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+        function myFunction() {
+          document.getElementById("screen").innerHTML = "Paragraph changed using javascript.";
+        }
+        </script>
+</head>
+
+<body  class="container">
+
+
+
+    
+<h2>My First JavaScript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+<h1>secound javascript </h1>
+<button type="button" onclick="document.getElementById('ali').innerHTML=Date()">
+    click Here
+</button>
+<p id="ali"></p>
+
+
+
+<h2> JavaScript Do</h2>
+
+<p id="ali1">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("ali1").innerHTML = "Hello i am ali raza"'>Click Me!</button>
+
+
+<h1>javscript changed content</h1>
+
+<p id="raza" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, quos. </p>
+
+<button type="button" onclick='document.getElementById("raza").innerHTML="Hi javascript ali here"'> show js line</button>
+
+
+
+
+
+<div class="container ">
+    
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+
+</div>
+
+
+
+<p id="r1">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('r1').style.fontSize='40px'">Big Font</button>
+
+
+<p id="r2">JavaScript can change the style of an HTML element.</p>
+
+<button type="button" onclick="document.getElementById('r2').style.fontSize='80px'">Font changing</button>
+
+<br><br>
+
+<p id="r3">JavaScript can hide HTML elements.</p>
+<button type="button" onclick="document.getElementById('r3').style.display='none'">display none</button>
+
+
+
+<br><br>
+<p id="r4" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('r4').style.display='block'">display block</button>
+<br><br>
+
+<p id="r5" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('r5').style.display='block'">disp block</button>
+<br><br>
+
+<h1>using script tag</h1>
+
+<p id="r6">this is a javascript</p>
+
+<script>
+document.getElementById("r6").innerHTML = "JavaScript using script tap";
+</script>
+
+<br><br>
+<p id="screen">A Paragraph of javascript.</p>
+
+<button type="button" onclick="myFunction()">link with head </button>
+
+
+<br><br>
+
+<h2> JavaScript in Body</h2>
+
+<p id="r7">Paragraph</p>
+
+<button type="button" onclick="myFunction()">javascript in body</button>
+
+<script>
+function myFunction() {
+  document.getElementById("r7").innerHTML = "i love pakistan.";
+}
+</script>
+
+</html> 
